@@ -1,0 +1,37 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="20dp"
+    android:height="50dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108"
+    >
+
+    <!-- Fondo blanco para la pelota de tenis -->
+    <path android:pathData="M0,0h108v108H0z">
+        <aapt:attr name="android:fillColor">
+            <solid android:color="@color/black" />
+        </aapt:attr>
+    </path>
+
+    <!-- Líneas de la pelota de tenis -->
+    <path
+        android:fillColor="@color/VerdeFM"
+        android:pathData="M54,0c29.8,0 54,24.2 54,54s-24.2,54 -54,54S0,83.8 0,54S24.2,0 54,0z"
+        android:strokeWidth="1"
+        android:strokeColor="@android:color/white"
+        />
+
+    <path
+        android:fillColor="@color/black"
+        android:pathData="M53.3,0.7c-28.6,0 -51.7,23.1 -51.7,51.7s23.1,51.7 51.7,51.7s51.7,-23.1 51.7,-51.7S82,0.7 53.3,0.7zM53.3,99.3c-27.7,0 -50.3,-22.6 -50.3,-50.3s22.6,-50.3 50.3,-50.3s50.3,22.6 50.3,50.3S81,99.3 53.3,99.3z"
+        android:strokeWidth="1"
+        android:strokeColor="@android:color/white" />
+
+    <path
+        android:fillColor="@color/black"
+        android:pathData="M53.3,5c-25.6,0 -46.3,20.7 -46.3,46.3s20.7,46.3 46.3,46.3s46.3,-20.7 46.3,-46.3S78.9,5 53.3,5zM53.3,94.7c-24.9,0 -45.3,-20.4 -45.3,-45.3s20.4,-45.3 45.3,-45.3s45.3,20.4 45.3,45.3S78.2,94.7 53.3,94.7z"
+        android:strokeWidth="1"
+        android:strokeColor="@android:color/black" />
+
+</vector>
